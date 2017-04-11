@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+    The very first application
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" />
+    <title>Enes` World v1.1</title>
+</head>
+
+<!--  BEGINS: Page style settings -->
+
+<style>
+    html {
+        font-family: inherit;
+        background-color: inherit;
+    }
+    
+    img {
+        width: 100%;
+    }
+	
+	h1,h3{
+		font-size: 3.0em;
+	}
+    
+    p {
+        font-size: 2.0em;
+        padding-top: 10px;
+        text-align: middle;
+    }
+</style>
+
+<!--  ENDS: Page style settings -->
+<!--  BEGINS: Content for our application -->
+
+<body class="container text-center">
+
+    <h1>The 2015 Games!</h1>
+    <img src="img/46895017-games.jpg">
+	<h3>Description</h3>
+	<p>
+	 What a wonderful year to be a PC gamer. Sure, there’s been some portentous gaming hardware releases in 2015, from the launch of the first graphics cards capable of 4K gaming to the long awaited introduction of Valve’s Steam Machines. But that’s not what I’m talking about. When it comes down to brass tacks, gaming is all about the games and 2015’s blitz of new top tier games was so outstanding that it gives the legendary 2004 lineup a run for its money.  Narrowing down to just 10 favorite PC games was a struggle, but these are the ones that gave PCWorld’s gaming team reporter Hayden Dingman and editor Brad Chacos the biggest smiles in 2015. Note that our focus is limited to the PC as a platform, so you won’t find console exclusives like Bloodborne or Rise of the Tomb Raider here, no matter how delicious they are. And aside from our overall game of the year, these aren’t ranked in any way they’re all just plain great games. Got it? Great. Buckle up!
+</p>
+<h3>Quiz</h3>
+<button id="question1" type="button" class="btn btn-default">Question 1</button>
+<button id="question2" type="button" class="btn btn-default">Question 2</button>
+</body>
+
+<!--  ENDS: Content for our application  -->
+
+
+<!--  BEGINS: Script block  -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+    $("#question1").click(function() {
+        alert("What game did you like?");
+    });
+	$("#question2").click(function() {
+        alert("What is your favourite game?");
+    });
+</script>
+<!--  ENDS: Script block  -->
+
+</html>
